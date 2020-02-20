@@ -1,0 +1,14 @@
+﻿  正在跳过...(未检测到相关更改)
+  stdafx.cpp
+  DiamondGameTetris.cpp
+f:\fappy bird\fappy bird\diamondgametetris.cpp(27): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+f:\fappy bird\fappy bird\diamondgametetris.cpp(114): error C2065: “m_points”: 未声明的标识符
+f:\fappy bird\fappy bird\diamondgametetris.cpp(114): error C2228: “.push_back”的左边必须有类/结构/联合
+  f:\fappy bird\fappy bird\diamondgametetris.cpp(114): note: 类型是“unknown-type”
+f:\fappy bird\fappy bird\diamondgametetris.cpp(122): error C2039: “find”: 不是“DiamondGameTetris”的成员
+  f:\fappy bird\fappy bird\diamondgametetris.h(7): note: 参见“DiamondGameTetris”的声明
+f:\fappy bird\fappy bird\diamondgametetris.cpp(198): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  正在生成代码...
+  正在跳过...(未检测到相关更改)
+  FlyBirdGame.cpp
+  DiamondGame.cpp

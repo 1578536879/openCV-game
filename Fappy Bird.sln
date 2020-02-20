@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fappy Bird", "Fappy Bird\Fappy Bird.vcxproj", "{BA475E28-B353-4B7A-9F71-2E2F47E0F278}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{A5082F62-4AA1-40D9-9AF7-EFF926B22370}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA475E28-B353-4B7A-9F71-2E2F47E0F278}.Debug|x64.ActiveCfg = Debug|x64
+		{BA475E28-B353-4B7A-9F71-2E2F47E0F278}.Debug|x64.Build.0 = Debug|x64
+		{BA475E28-B353-4B7A-9F71-2E2F47E0F278}.Debug|x86.ActiveCfg = Debug|Win32
+		{BA475E28-B353-4B7A-9F71-2E2F47E0F278}.Debug|x86.Build.0 = Debug|Win32
+		{BA475E28-B353-4B7A-9F71-2E2F47E0F278}.Release|x64.ActiveCfg = Release|x64
+		{BA475E28-B353-4B7A-9F71-2E2F47E0F278}.Release|x64.Build.0 = Release|x64
+		{BA475E28-B353-4B7A-9F71-2E2F47E0F278}.Release|x86.ActiveCfg = Release|Win32
+		{BA475E28-B353-4B7A-9F71-2E2F47E0F278}.Release|x86.Build.0 = Release|Win32
+		{A5082F62-4AA1-40D9-9AF7-EFF926B22370}.Debug|x64.ActiveCfg = Debug
+		{A5082F62-4AA1-40D9-9AF7-EFF926B22370}.Debug|x86.ActiveCfg = Debug
+		{A5082F62-4AA1-40D9-9AF7-EFF926B22370}.Release|x64.ActiveCfg = Release
+		{A5082F62-4AA1-40D9-9AF7-EFF926B22370}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83FEA601-D64E-4975-9026-A86DB1C58723}
+	EndGlobalSection
+EndGlobal

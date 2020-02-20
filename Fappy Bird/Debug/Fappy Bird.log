@@ -1,0 +1,37 @@
+﻿  stdafx.cpp
+  Fappy Bird.cpp
+  DiamondGameTetris.cpp
+f:\fappy bird\fappy bird\diamondgametetris.cpp(27): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+f:\fappy bird\fappy bird\diamondgametetris.cpp(198): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  DiamondGamePlayer.cpp
+f:\fappy bird\fappy bird\diamondgameplayer.cpp(40): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  DiamondGame.cpp
+  正在生成代码...
+DiamondGame.obj : error LNK2019: 无法解析的外部符号 "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ)，该符号在函数 "public: __thiscall cv::String::~String(void)" (??1String@cv@@QAE@XZ) 中被引用
+DiamondGamePlayer.obj : error LNK2001: 无法解析的外部符号 "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ)
+DiamondGameTetris.obj : error LNK2001: 无法解析的外部符号 "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ)
+Fappy Bird.obj : error LNK2001: 无法解析的外部符号 "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ)
+DiamondGame.obj : error LNK2019: 无法解析的外部符号 _cvCreateImage，该符号在函数 "public: void __thiscall DiamondGame::run(int)" (?run@DiamondGame@@QAEXH@Z) 中被引用
+Fappy Bird.obj : error LNK2001: 无法解析的外部符号 _cvCreateImage
+DiamondGame.obj : error LNK2019: 无法解析的外部符号 _cvReleaseImage，该符号在函数 "public: __thiscall DiamondGame::~DiamondGame(void)" (??1DiamondGame@@QAE@XZ) 中被引用
+DiamondGame.obj : error LNK2019: 无法解析的外部符号 _cvCopy，该符号在函数 "public: void __thiscall DiamondGame::run(int)" (?run@DiamondGame@@QAEXH@Z) 中被引用
+DiamondGameTetris.obj : error LNK2001: 无法解析的外部符号 _cvCopy
+Fappy Bird.obj : error LNK2001: 无法解析的外部符号 _cvCopy
+DiamondGame.obj : error LNK2019: 无法解析的外部符号 _cvInitFont，该符号在函数 "public: void __thiscall DiamondGame::die(struct _IplImage *)" (?die@DiamondGame@@QAEXPAU_IplImage@@@Z) 中被引用
+DiamondGame.obj : error LNK2019: 无法解析的外部符号 _cvPutText，该符号在函数 "public: void __thiscall DiamondGame::die(struct _IplImage *)" (?die@DiamondGame@@QAEXPAU_IplImage@@@Z) 中被引用
+DiamondGame.obj : error LNK2019: 无法解析的外部符号 _cvLoadImage，该符号在函数 "public: void __thiscall DiamondGame::die(struct _IplImage *)" (?die@DiamondGame@@QAEXPAU_IplImage@@@Z) 中被引用
+DiamondGamePlayer.obj : error LNK2001: 无法解析的外部符号 _cvLoadImage
+DiamondGameTetris.obj : error LNK2001: 无法解析的外部符号 _cvLoadImage
+Fappy Bird.obj : error LNK2001: 无法解析的外部符号 _cvLoadImage
+DiamondGame.obj : error LNK2019: 无法解析的外部符号 _cvNamedWindow，该符号在函数 "public: void __thiscall DiamondGame::die(struct _IplImage *)" (?die@DiamondGame@@QAEXPAU_IplImage@@@Z) 中被引用
+Fappy Bird.obj : error LNK2001: 无法解析的外部符号 _cvNamedWindow
+DiamondGame.obj : error LNK2019: 无法解析的外部符号 _cvShowImage，该符号在函数 "public: void __thiscall DiamondGame::die(struct _IplImage *)" (?die@DiamondGame@@QAEXPAU_IplImage@@@Z) 中被引用
+Fappy Bird.obj : error LNK2001: 无法解析的外部符号 _cvShowImage
+DiamondGame.obj : error LNK2019: 无法解析的外部符号 _cvDestroyWindow，该符号在函数 "public: __thiscall DiamondGame::~DiamondGame(void)" (??1DiamondGame@@QAE@XZ) 中被引用
+DiamondGame.obj : error LNK2019: 无法解析的外部符号 _cvSetMouseCallback，该符号在函数 "public: void __thiscall DiamondGame::die(struct _IplImage *)" (?die@DiamondGame@@QAEXPAU_IplImage@@@Z) 中被引用
+Fappy Bird.obj : error LNK2001: 无法解析的外部符号 _cvSetMouseCallback
+DiamondGame.obj : error LNK2019: 无法解析的外部符号 _cvWaitKey，该符号在函数 "public: int __thiscall DiamondGame::addEventListener(void)" (?addEventListener@DiamondGame@@QAEHXZ) 中被引用
+Fappy Bird.obj : error LNK2001: 无法解析的外部符号 _cvWaitKey
+E:\Ruanjian\opencv\opencv\build\x64\vc14\lib\opencv_world341d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\Ruanjian\opencv\opencv\build\x64\vc14\lib\opencv_world341.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+F:\Fappy Bird\Debug\Fappy Bird.exe : fatal error LNK1120: 12 个无法解析的外部命令
